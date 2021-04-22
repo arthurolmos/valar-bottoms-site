@@ -1,5 +1,4 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
 import Carousel from "../src/carousel/Carousel";
 
 const items = [
@@ -28,7 +27,7 @@ export default function Home() {
       <main className="py-20 px-10 flex flex-1 flex-col justify-center items-center">
         <h1 className="m-0 mb-5 leading-tight text-8xl">VALAR BOTTOMS</h1>
 
-        <p className={styles.description}>
+        <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus
           lorem mi, pulvinar molestie nunc bibendum quis. In condimentum
           scelerisque dui vitae semper. Curabitur semper molestie mauris sit
@@ -50,14 +49,13 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className={styles.footer}>
+      <footer>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{" "}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          Powered by <img src="/vercel.svg" alt="Vercel Logo" />
         </a>
       </footer>
     </div>

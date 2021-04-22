@@ -1,4 +1,3 @@
-import "../styles/globals.css";
 import "tailwindcss/tailwind.css";
 import Navbar from "../src/navbar/Navbar";
 
